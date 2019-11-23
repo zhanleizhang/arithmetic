@@ -1,15 +1,17 @@
 package link;
 
 /**
- * 链表逆序
+ * 逆序链表
  */
 public class ReverLink {
     public static LinkNode reverLinkList(LinkNode head) {
         if (null == head) {
             return null;
         }
-        LinkNode pre = null;  //前驱
-        LinkNode next = null; //后置
+        //前驱节点
+        LinkNode pre = null;
+        //后置节点
+        LinkNode next = null;
         while (head != null) {
             next = head.getNext();
             head.setNext(pre);
