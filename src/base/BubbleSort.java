@@ -42,6 +42,7 @@ public class BubbleSort {
      * @param arr
      */
     private static void sort2(int[] arr) {
+        //需要遍历数组长度次数，每次找一个最大的
         for (int i = 0; i < arr.length - 1; i++) {
             Boolean isSort = true;
             for (int j = 0; j < arr.length - 1 - i; j++) {
