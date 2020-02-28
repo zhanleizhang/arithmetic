@@ -3,6 +3,9 @@ package other;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * È«ÅÅÁĞ
+ */
 public class Permutation {
     static List<List<Integer>> lists = new ArrayList<>();
 
