@@ -7,17 +7,28 @@ public class LinkNodeList {
         LinkNode root = new LinkNode("火车头");
         LinkNode n1 = new LinkNode("车厢A");
         LinkNode n2 = new LinkNode("车厢B");
+        LinkNode n3 = new LinkNode("车厢C");
+        LinkNode n4 = new LinkNode("车厢D");
+        LinkNode n5 = new LinkNode("车厢E");
 
         // 链接节点
         root.setNext(n1);
         n1.setNext(n2);
+        n2.setNext(n3);
+        n3.setNext(n4);
+        n4.setNext(n5);
         //获取节点列表
         getLinkNodeList(root);
 
         System.out.println("+++++++++++++++++++");
         //逆序列表
-        LinkNode node = ReverLink.reverLinkList(root);
-        getLinkNodeList(node);
+       /* LinkNode node = ReverLink.reverLinkList(root);
+        getLinkNodeList(node);*/
+
+        LinkNode nodek = KNodeLink.kNodeLink(root,2);
+        System.out.println(nodek.getData());
+        LinkNode nodek1 = KNodeLink.kNodeLink1(root,2);
+        System.out.println(nodek1.getData());
 
 
     }
