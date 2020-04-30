@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcb6b68-548d-4f72-b368-db99fb8163e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TestArraysCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/base/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/TwoNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/MapComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/TreeMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/ComparableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/ComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparator/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/com.arithmetic/other/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.arithmetic/other/Permutation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,40 +21,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="121" column="11" lean-forward="true" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/TreeMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="1290" column="7" lean-forward="true" selection-start-line="1290" selection-start-column="7" selection-end-line="1290" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/map/TreeMapDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/map/MapComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+            <state relative-caret-position="216">
+              <caret line="107" column="31" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1172#1173#0" expanded="true" />
@@ -66,6 +33,70 @@
                 <element signature="e#2219#2220#0" expanded="true" />
                 <element signature="e#3273#3274#0" expanded="true" />
                 <element signature="e#3313#3314#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comparable/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+              <folding>
+                <element signature="e#273#274#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comparator/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/comparator/ComparatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/comparable/ComparableTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,15 +147,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -141,9 +163,11 @@
       <find>快排</find>
       <find>Map</find>
       <find>red</find>
+      <find>Student</find>
     </findStrings>
     <replaceStrings>
       <replace>LinkNode</replace>
+      <replace>User</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -190,6 +214,10 @@
         <option value="$PROJECT_DIR$/src/base/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/map/Demo.java" />
         <option value="$PROJECT_DIR$/src/map/MapComparator.java" />
+        <option value="$PROJECT_DIR$/src/comparable/ComparableTest.java" />
+        <option value="$PROJECT_DIR$/src/comparable/User.java" />
+        <option value="$PROJECT_DIR$/src/comparator/User.java" />
+        <option value="$PROJECT_DIR$/src/comparator/ComparatorTest.java" />
       </list>
     </option>
   </component>
@@ -229,19 +257,13 @@
               <item name="com.arithmetic" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="comparable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.arithmetic" type="b2602c69:ProjectViewProjectNode" />
               <item name="com.arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="com.arithmetic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="com.arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="comparator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="com.arithmetic" type="b2602c69:ProjectViewProjectNode" />
@@ -311,7 +333,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MapComparator">
+  <component name="RunManager" selected="Application.ComparatorTest">
+    <configuration name="ComparableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparable.ComparableTest" />
+      <module name="com.arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComparatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="comparator.ComparatorTest" />
+      <module name="com.arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="comparator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MapComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="map.MapComparator" />
       <module name="com.arithmetic" />
@@ -321,26 +369,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.MyStack" />
-      <module name="com.arithmetic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestArraysCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestArraysCopy" />
-      <module name="com.arithmetic" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -372,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestArraysCopy" />
-      <item itemvalue="Application.MyStack" />
       <item itemvalue="Application.TwoNum" />
       <item itemvalue="Application.TreeMapDemo" />
       <item itemvalue="Application.MapComparator" />
+      <item itemvalue="Application.ComparableTest" />
+      <item itemvalue="Application.ComparatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComparatorTest" />
+        <item itemvalue="Application.ComparableTest" />
         <item itemvalue="Application.MapComparator" />
         <item itemvalue="Application.TreeMapDemo" />
         <item itemvalue="Application.TwoNum" />
-        <item itemvalue="Application.MyStack" />
-        <item itemvalue="Application.TestArraysCopy" />
       </list>
     </recent_temporary>
   </component>
@@ -417,12 +445,20 @@
       <workItem from="1582906400711" duration="7198000" />
       <workItem from="1584976857896" duration="346000" />
       <workItem from="1585663084558" duration="4980000" />
-      <workItem from="1588143976701" duration="7007000" />
+      <workItem from="1588143976701" duration="8727000" />
     </task>
+    <task id="LOCAL-00001" summary="treemap结构">
+      <created>1588256282881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588256282881</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95723000" />
+    <option name="totallyTimeSpent" value="97443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1864" y="41" width="1394" height="934" extended-state="0" />
@@ -445,7 +481,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3280507" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32779098" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3296355" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -463,6 +499,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="treemap结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="treemap结构" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -485,7 +525,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/stack/stackdetail.txt" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
@@ -848,8 +887,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/map/MapComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="113" column="11" lean-forward="true" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+        <state relative-caret-position="216">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1172#1173#0" expanded="true" />
@@ -858,6 +897,62 @@
             <element signature="e#2219#2220#0" expanded="true" />
             <element signature="e#3273#3274#0" expanded="true" />
             <element signature="e#3313#3314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/ComparableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="17" column="38" lean-forward="true" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparable/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparator/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/comparator/ComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
