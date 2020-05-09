@@ -3,8 +3,7 @@ package base;
 import java.util.Arrays;
 
 /**
- * Created by chengxiao on 2016/12/17.
- * ∂—≈≈–Údemo
+ * ∂—≈≈–Údemo zzl
  */
 public class HeapSort {
     public static void main(String[] args) {
