@@ -20,7 +20,7 @@ public class FullSort {
         }
 
         /**
-         * 从第一个位置开始进行
+         * 从第一个位置开始进行递归
          */
         for (int i = start; i <= end; i++) {
             swap(arr, i, start);
