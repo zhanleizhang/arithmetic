@@ -28,6 +28,12 @@ public class PowerOf2 {
         return false;
     }
 
+    /**
+     * 4 -- 100 3 --011  8 --1000 7 --0111   进行与(&)运算 相同的为1
+     * 异或^ 两个不相同为1   右移 >>   左移  <<
+     * @param num
+     * @return
+     */
     private static boolean isPowerOf2_1(int num) {
         return (num & num - 1) == 0;
     }
