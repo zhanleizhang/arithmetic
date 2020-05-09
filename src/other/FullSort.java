@@ -18,6 +18,10 @@ public class FullSort {
             System.out.println();
             return;
         }
+
+        /**
+         * 从第一个位置开始进行
+         */
         for (int i = start; i <= end; i++) {
             swap(arr, i, start);
             fullSort(arr, start + 1, end);
@@ -25,6 +29,13 @@ public class FullSort {
         }
     }
 
+    /**
+     * 交换数据
+     *
+     * @param arr
+     * @param i
+     * @param j
+     */
     private static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
         arr[i] = arr[j];
