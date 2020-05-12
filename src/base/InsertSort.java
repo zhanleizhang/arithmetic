@@ -24,7 +24,7 @@ public class InsertSort {
 
     private static void swap(int[] arr, int j, int k) {
         int temp = arr[j];
-        arr[j] = arr[j - 1];
-        arr[j - 1] = temp;
+        arr[j] = arr[k];
+        arr[k] = temp;
     }
 }
