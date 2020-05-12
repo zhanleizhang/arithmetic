@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcb6b68-548d-4f72-b368-db99fb8163e9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/other/DaNumAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/base/InsertSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/other/DaNumAdd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="320">
+              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -80,8 +80,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/base/BubbleSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            <state relative-caret-position="337">
+              <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/base/InsertSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -104,18 +113,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tree/ThreeHeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -133,6 +130,7 @@
       <find>Map</find>
       <find>red</find>
       <find>Student</find>
+      <find>gap</find>
     </findStrings>
     <replaceStrings>
       <replace>LinkNode</replace>
@@ -146,7 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/link/LinkNode.java" />
         <option value="$PROJECT_DIR$/src/link/RevesLink.java" />
         <option value="$PROJECT_DIR$/src/stack/StackMain.java" />
         <option value="$PROJECT_DIR$/src/stack/MyStack1.java" />
@@ -197,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/other/FullSort.java" />
         <option value="$PROJECT_DIR$/src/tree/DeepBroad.java" />
         <option value="$PROJECT_DIR$/src/other/DaNumAdd.java" />
+        <option value="$PROJECT_DIR$/src/base/InsertSort.java" />
       </list>
     </option>
   </component>
@@ -207,8 +205,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1755" />
-    <option name="y" value="101" />
+    <option name="x" value="1674" />
+    <option name="y" value="176" />
     <option name="width" value="1394" />
     <option name="height" value="934" />
   </component>
@@ -322,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DaNumAdd">
+  <component name="RunManager" selected="Application.InsertSort">
     <configuration name="DaNumAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="other.DaNumAdd" />
       <module name="com.arithmetic" />
@@ -349,8 +347,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.FullSort" />
+    <configuration name="FullSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.FullSort1" />
       <module name="com.arithmetic" />
       <extension name="coverage">
         <pattern>
@@ -362,12 +360,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FullSort1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="other.FullSort1" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="base.InsertSort" />
       <module name="com.arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="other.*" />
+          <option name="PATTERN" value="base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -389,19 +387,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FullSort" />
       <item itemvalue="Application.FullSort1" />
       <item itemvalue="Application.SsytemArrayCopy" />
       <item itemvalue="Application.DeepBroad" />
       <item itemvalue="Application.DaNumAdd" />
+      <item itemvalue="Application.InsertSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.DaNumAdd" />
         <item itemvalue="Application.DeepBroad" />
         <item itemvalue="Application.SsytemArrayCopy" />
         <item itemvalue="Application.FullSort1" />
-        <item itemvalue="Application.FullSort" />
       </list>
     </recent_temporary>
   </component>
@@ -436,7 +434,7 @@
       <workItem from="1585663084558" duration="4980000" />
       <workItem from="1588143976701" duration="12365000" />
       <workItem from="1589028461239" duration="3967000" />
-      <workItem from="1589159950500" duration="14793000" />
+      <workItem from="1589159950500" duration="18286000" />
     </task>
     <task id="LOCAL-00001" summary="treemap结构">
       <created>1588256282881</created>
@@ -487,17 +485,31 @@
       <option name="project" value="LOCAL" />
       <updated>1589179850524</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="大数相加">
+      <created>1589256567988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589256567988</updated>
+    </task>
+    <task id="LOCAL-00009" summary="大数相加">
+      <created>1589257899711</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589257899711</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119841000" />
+    <option name="totallyTimeSpent" value="123334000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1755" y="101" width="1394" height="934" extended-state="0" />
+    <frame x="1674" y="176" width="1394" height="934" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976415" visible="true" weight="0.26257396" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976415" visible="true" weight="0.26257396" />
       <window_info id="Structure" order="1" sideWeight="0.5023585" side_tool="true" weight="0.27093595" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -507,7 +519,7 @@
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32779098" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32779098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39667457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -545,36 +557,10 @@
     <MESSAGE value="全排列" />
     <MESSAGE value="注释" />
     <MESSAGE value="深度和广度遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="深度和广度遍历" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/stack/MyStack1.java</url>
-          <line>30</line>
-          <properties class="stack.MyStack1" method="getStackNums">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/queue/MyStack.java</url>
-          <line>91</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="大数相加" />
+    <option name="LAST_COMMIT_MESSAGE" value="大数相加" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/stack/StackMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/Anagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -882,13 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/base/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-185">
@@ -908,8 +887,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/other/DaNumAdd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="320">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="26" column="42" lean-forward="true" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/InsertSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
