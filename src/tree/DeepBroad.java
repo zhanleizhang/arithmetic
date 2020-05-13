@@ -25,6 +25,9 @@ public class DeepBroad {
         System.out.println("deep优先遍历结果：");
         new DeepFirstSort().depthFirstSearch(head);
         new DeepFirstSort().depthFirstSearch1(head);
+        new DeepFirstSort().midTreeSearch(head);
+        new DeepFirstSort().inorderTraversal(head);
+        new DeepFirstSort().postTreeSearch(head);
     }
 }
 
@@ -71,7 +74,8 @@ class DeepFirstSort {
     }
 
     /**
-     * 深度遍历也是一中前序遍历
+     * 深度遍历也是一种前序遍历
+     *
      * @param head
      */
     public void depthFirstSearch1(TreeNode head) {
@@ -80,7 +84,7 @@ class DeepFirstSort {
         stack.push(head);
         while (!stack.isEmpty()) {
             TreeNode top = stack.pop();
-            System.out.print(top.val+" ");
+            System.out.print(top.val + " ");
             if (top.right != null) {
                 stack.push(top.right);
             }
@@ -89,4 +93,73 @@ class DeepFirstSort {
             }
         }
     }
+
+    public void midTreeSearch(TreeNode head) {
+        System.out.println();
+        System.out.println("中序遍历");
+        Stack<TreeNode> stack = new Stack<>();
+        while (head != null || !stack.isEmpty()) {
+            while (head != null) {
+                stack.push(head);
+                head = head.left;
+            }
+
+            // if (!stack.isEmpty()) {
+            head = stack.pop();
+            System.out.print(head.val + " ");
+            head = head.right;
+            // }
+        }
+    }
+
+    public void inorderTraversal(TreeNode root) {
+        System.out.println();
+        System.out.println("中序遍历");
+        Stack<TreeNode> stack = new Stack<>();
+        while (root != null || !stack.isEmpty()) {
+            if (root != null) {
+                stack.push(root);
+                root = root.left;
+            } else {
+                root = stack.pop();
+                System.out.print(root.val + " ");
+                root = root.right;
+            }
+        }
+    }
+
+    /**
+     * 后序排列 结果显示的是：左 右 中
+     * 两个栈，一个存储节点的位置 中 右 左
+     * 一个存储栈弹出的节点信息左 右 中
+     * @param head
+     */
+    public void postTreeSearch(TreeNode head) {
+        System.out.println();
+        System.out.println("后序排列");
+        Stack<TreeNode> stack1 = new Stack<>();
+        Stack<TreeNode> stack2 = new Stack<>();
+        stack1.push(head);
+        while (!stack1.isEmpty()) {
+
+            head = stack1.pop();
+            //存储中右左
+            stack2.push(head);
+            if (head.left != null) {
+                stack1.push(head.left);
+            }
+            if (head.right != null) {
+                stack1.push(head.right);
+            }
+        }
+
+        /**
+         * 弹出 左 右 中
+         */
+        while (!stack2.isEmpty()) {
+            System.out.print(stack2.pop().val + " ");
+        }
+
+    }
+
 }
