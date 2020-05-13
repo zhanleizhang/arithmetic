@@ -24,6 +24,7 @@ public class DeepBroad {
         System.out.println();
         System.out.println("deep优先遍历结果：");
         new DeepFirstSort().depthFirstSearch(head);
+        new DeepFirstSort().depthFirstSearch1(head);
     }
 }
 
@@ -32,6 +33,7 @@ class DeepFirstSort {
 
     /**
      * 广度优先遍历，用队列，层级遍历
+     *
      * @param head
      */
     public void broadFirstSearch(TreeNode head) {
@@ -50,6 +52,7 @@ class DeepFirstSort {
 
     /**
      * 深度遍历，栈  和二叉树前序
+     *
      * @param head
      */
     public void depthFirstSearch(TreeNode head) {
@@ -63,6 +66,26 @@ class DeepFirstSort {
             if (!stack.isEmpty()) {
                 head = stack.pop();
                 head = head.right;
+            }
+        }
+    }
+
+    /**
+     * 深度遍历也是一中前序遍历
+     * @param head
+     */
+    public void depthFirstSearch1(TreeNode head) {
+        System.out.println();
+        Stack<TreeNode> stack = new Stack<>();
+        stack.push(head);
+        while (!stack.isEmpty()) {
+            TreeNode top = stack.pop();
+            System.out.print(top.val+" ");
+            if (top.right != null) {
+                stack.push(top.right);
+            }
+            if (top.left != null) {
+                stack.push(top.left);
             }
         }
     }
