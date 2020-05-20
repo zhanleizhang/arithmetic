@@ -34,7 +34,7 @@ public class ReduceSort {
         int high = length - 1;
         while (low <= high) {
             int mid = low + ((high - low) >> 1);
-            System.out.println("***"+mid);
+            System.out.println("***" + mid);
             if (arr[mid] <= value) {
                 //  high = mid - 1;
                 low = mid + 1;
