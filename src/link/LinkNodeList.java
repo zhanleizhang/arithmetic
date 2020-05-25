@@ -23,12 +23,16 @@ public class LinkNodeList {
         System.out.println("+++++++++++++++++++");
         //ÄæÐòÁÐ±í
        /* LinkNode node = ReverLink.reverLinkList(root);
-        getLinkNodeList(node);*/
+        getLinkNodeList(node);
+*/
+        //µÝ¹éÄæÐò
+        LinkNode node1 = ReverLink.reverLinkList1(root);
+        getLinkNodeList(node1);
 
-        LinkNode nodek = KNodeLink.kNodeLink(root,2);
+        /*LinkNode nodek = KNodeLink.kNodeLink(root,2);
         System.out.println(nodek.getData());
         LinkNode nodek1 = KNodeLink.kNodeLink1(root,2);
-        System.out.println(nodek1.getData());
+        System.out.println(nodek1.getData());*/
 
 
     }

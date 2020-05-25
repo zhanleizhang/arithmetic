@@ -20,4 +20,21 @@ public class ReverLink {
         }
         return pre;
     }
+
+    /**
+     * 递归遍历反转链表
+     *
+     * @param head
+     * @return
+     */
+    public static LinkNode reverLinkList1(LinkNode head) {
+        if (head == null || head.getNext() == null) {
+            return head;
+        }
+        LinkNode newHead = reverLinkList1(head.getNext());
+        head.getNext().setNext(head);
+        head.setNext(null);
+        return newHead;
+
+    }
 }
