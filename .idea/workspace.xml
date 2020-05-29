@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddcb6b68-548d-4f72-b368-db99fb8163e9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/other/FullSort2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/link/LinkNodeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/link/LinkNodeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/link/ReverLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/link/ReverLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.arithmetic/link/LinkNodeList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.arithmetic/link/LinkNodeList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/com.arithmetic/link/ReverLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/com.arithmetic/link/ReverLink.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,40 +20,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/link/ReverLink.java">
+        <entry file="file://$PROJECT_DIR$/src/collections/map/LinkedHahMapDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="4">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/link/LinkNodeList.java">
+        <entry file="file://$PROJECT_DIR$/src/other/FullSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="157">
+              <caret line="19" column="9" selection-start-line="13" selection-start-column="26" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/other/DaNumAdd.java">
+        <entry file="file://$PROJECT_DIR$/src/other/FullSort2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/collections/map/HashMapDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+            <state relative-caret-position="251">
+              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#169#184#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/other/FullSort1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -145,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/ArrayDemo.java" />
         <option value="$PROJECT_DIR$/src/SetDemo.java" />
         <option value="$PROJECT_DIR$/src/leetcode/Intersection.java" />
         <option value="$PROJECT_DIR$/src/base/BubbleSort.java" />
@@ -196,6 +199,8 @@
         <option value="$PROJECT_DIR$/src/reduce/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/link/ReverLink.java" />
         <option value="$PROJECT_DIR$/src/link/LinkNodeList.java" />
+        <option value="$PROJECT_DIR$/src/other/Solution.java" />
+        <option value="$PROJECT_DIR$/src/other/FullSort2.java" />
       </list>
     </option>
   </component>
@@ -206,10 +211,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1540" />
-    <option name="y" value="111" />
-    <option name="width" value="1730" />
-    <option name="height" value="931" />
+    <option name="x" value="53" />
+    <option name="y" value="23" />
+    <option name="width" value="1370" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -217,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,7 +324,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkNodeList">
+  <component name="RunManager" selected="Application.FullSort2">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reduce.BinarySearch" />
       <module name="com.arithmetic" />
@@ -362,12 +368,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DeepBroad" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.DeepBroad" />
+    <configuration name="FullSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.FullSort" />
       <module name="com.arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -375,12 +381,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collections.map.HashMapDemo" />
+    <configuration name="FullSort2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.FullSort2" />
       <module name="com.arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collections.map.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,19 +421,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DeepBroad" />
-      <item itemvalue="Application.HashMapDemo" />
       <item itemvalue="Application.LinkedHahMapDemo" />
       <item itemvalue="Application.BinarySearch" />
       <item itemvalue="Application.LinkNodeList" />
+      <item itemvalue="Application.FullSort" />
+      <item itemvalue="Application.FullSort2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FullSort2" />
+        <item itemvalue="Application.FullSort" />
         <item itemvalue="Application.LinkNodeList" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.LinkedHahMapDemo" />
-        <item itemvalue="Application.HashMapDemo" />
-        <item itemvalue="Application.DeepBroad" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +476,9 @@
       <workItem from="1589377284309" duration="3699000" />
       <workItem from="1589940719027" duration="8008000" />
       <workItem from="1589961126970" duration="36000" />
-      <workItem from="1590388242020" duration="1344000" />
+      <workItem from="1590388242020" duration="1445000" />
+      <workItem from="1590669966188" duration="91000" />
+      <workItem from="1590716573821" duration="3927000" />
     </task>
     <task id="LOCAL-00001" summary="treemap结构">
       <created>1588256282881</created>
@@ -577,17 +585,24 @@
       <option name="project" value="LOCAL" />
       <updated>1589947683945</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="递归逆序">
+      <created>1590389841542</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1590389841542</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143477000" />
+    <option name="totallyTimeSpent" value="147596000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1513" y="213" width="1730" height="931" extended-state="0" />
+    <frame x="53" y="23" width="1370" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49524942" visible="true" weight="0.23400474" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49524942" visible="true" weight="0.18825302" />
       <window_info id="Structure" order="1" sideWeight="0.5047506" side_tool="true" weight="0.28402367" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -597,7 +612,7 @@
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32779098" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3269494" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39667457" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -605,7 +620,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32896304" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32896304" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3296355" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32913166" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
@@ -642,10 +657,10 @@
     <MESSAGE value="二叉树遍历" />
     <MESSAGE value="map 相关" />
     <MESSAGE value="二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="二分查找" />
+    <MESSAGE value="递归逆序" />
+    <option name="LAST_COMMIT_MESSAGE" value="递归逆序" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Map.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/TreeMap.java" />
     <entry file="file://$PROJECT_DIR$/src/map/TreeMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -704,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/link/LinkNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/comparator/AscComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -766,24 +774,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/FullSort1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/other/SsytemArrayCopy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/other/FullSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -900,27 +894,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/link/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/link/DoublyLinkList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="5" selection-start-line="10" selection-start-column="28" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collections/map/LinkedHahMapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,10 +940,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/link/ReverLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/link/LinkNodeList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/other/DaNumAdd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/link/LinkNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/link/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1022,17 +1027,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/link/ReverLink.java">
+    <entry file="file://$PROJECT_DIR$/src/collections/map/LinkedHahMapDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="4">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/link/LinkNodeList.java">
+    <entry file="file://$PROJECT_DIR$/src/other/FullSort1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="24" column="54" lean-forward="true" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        <state relative-caret-position="-138">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/FullSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#169#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/other/FullSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="19" column="9" selection-start-line="13" selection-start-column="26" selection-end-line="19" selection-end-column="9" />
         </state>
       </provider>
     </entry>
